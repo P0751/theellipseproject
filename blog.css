@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #93a9b6;
+}
+
+header {
+	margin: 0;
+	padding: 0;
+
+	background: #475b63;
+	width: 100%;
+	
+}
+
+#title {
+	display: inline-block;
+	color: #e6dfe3;
+	margin: 0;
+	margin-right: auto;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-family: Balsamiq Sans;
+	font-size: 2em;
+	display: flex; 
+	justify-content: center; 
+}
+
+#navbar {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 1%; 
+	
+
+}
+
+.navitems {
+	font-family: Itim;
+	font-size: 1.5em;
+	float: left;
+	margin: 0;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.navitems a {
+	color: #e6dfe3;
+	text-decoration: none;
+}
+
+.navitems a:hover {
+	color: #729B79;
+
+}
+
+.blogpost {
+	width: 80%;
+	margin: 5% 10%;
+	border: 1vw solid #538090;
+	position: relative;	
+}
+
+#blogtitle {
+	font-family: Balsamiq Sans;
+	font-size: 3vw;
+	margin: 2%;
+	color: white;
+}
+
+#insta {
+	width: 5%;
+	position: absolute;
+	right: 3%;
+	top: 1.45vw;
+}
+
+#cam {
+	width: 5%;
+	position: absolute;
+	right: 10%;
+	top: 1.3vw;
+}
+
+#date {
+	font-family: Itim;
+	font-size: 1.4vw;
+	color: white;
+	position: absolute;
+	left: 40%;
+	top: 1.4vw;
+}
+
+.blogcontent {
+	font-family: Itim;
+	font-size: 1.4vw;
+	color: white;
+	margin: 2%;
+}
